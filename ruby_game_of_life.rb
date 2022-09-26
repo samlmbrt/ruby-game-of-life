@@ -20,7 +20,6 @@ def parse_arguments
     o.int('-r', '--rows', 'Number of rows', default: 100)
     o.int('-c', '--columns', 'Number of columns', default: 100)
     o.int('-s', '--size', 'Cell size in pixels', default: 5)
-    o.separator('')
     o.separator('other options:')
     o.on('-h', '--help', 'Show this message') do
       puts(o)
